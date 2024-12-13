@@ -1,0 +1,326 @@
+//
+// _authentication.scss
+//
+
+
+.auth-page-wrapper{
+  .auth-page-content{
+      padding-bottom: $footer-height;
+      position: relative;
+      z-index: 2;
+      width: 100%;
+  }
+  .footer{
+      left: 0;
+      background-color: transparent;
+      color: var(--#{$prefix}body-color);
+  }
+}
+
+.auth-one-bg-position{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 380px;
+
+  @media (max-width: 575.98px) {
+      height: 280px;
+  }
+}
+
+.auth-one-bg{
+  background-color:#F4F5FA;
+
+  // .bg-overlay{
+  //     background: linear-gradient(to right, darken($primary, 6%), $primary);
+  //     opacity: 0.9;
+  // }
+}
+
+.shape{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+  >svg {
+      width: 100%;
+      height: auto;
+      fill: var(--#{$prefix}body-bg);
+  }
+}
+.account{
+  color: #8B8D97;
+  font-size: 14px;
+}
+
+// auth-pass-inputgroup
+.input-login{
+  background-color: #EFF1F999;
+  border-radius: 8px;
+  padding: 13px 16px 13px 45px!important;
+  border: none;
+  font-size: 16px;
+}
+.input-login:active{
+  background-color: #EFF1F999;
+  border-radius: 8px;
+  padding: 13px 16px 13px 45px!important;
+  border: none;
+  font-size: 16px;
+}
+.input-register{
+  background-color: #EFF1F999;
+  border-radius: 8px;
+  padding: 13px 16px 13px 45px!important;
+  border: none;
+  font-size: 16px;
+}
+.input-register:active{
+  background-color: #EFF1F999;
+  border-radius: 8px;
+  padding: 13px 16px 13px 45px!important;
+  border: none;
+  font-size: 16px;
+}
+
+.input-reset{
+  background-color: #EFF1F999;
+  border-radius: 8px;
+  padding: 13px 16px 13px 50px!important;
+  border: none;
+  font-size: 16px;
+}
+.input-reset:active{
+  background-color: #EFF1F999;
+  border-radius: 8px;
+  padding: 13px 16px 13px 50px!important;
+  border: none;
+  font-size: 16px;
+}
+
+.icon-pass-login{
+  font-size: 20px;
+  position: absolute;
+  // top: 45%;
+  left: 12px;
+  transform: translateY(-132%);
+  color: #5E6366;
+}
+
+.icon-user{
+  font-size: 20px;
+  position: absolute;
+  // top: 41%;
+  left: 35px;
+  transform: translateY(-132%);
+  color: #5E6366;
+}
+.icon-mail{
+  font-size: 20px;
+  position: absolute;
+  // top: 51.25%;
+  left: 35px;
+  transform: translateY(-132%);
+  color: #5E6366;
+}
+.icon-password{
+  font-size: 20px;
+  position: absolute;
+  // top: 61.75%;
+  left: 35px;
+  transform: translateY(-132%);
+  color: #5E6366;
+}
+
+.auth-pass-inputgroup{
+
+  input[type="text"] + .btn .ri-eye-fill{
+      &:before{
+          content: "\ecb6";
+      }
+  }
+}
+
+.particles-js-canvas-el{
+  position: relative;
+}
+
+// signin card title
+
+.signin-other-title{
+  position: relative;
+  &:after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      left: 0;
+      right: 0;
+      border-top: 1px dashed var(--#{$prefix}border-color);
+      top: 10px;
+  }
+
+  .title{
+      display: inline-block;
+      position: relative;
+      z-index: 9;
+      background-color: var(--#{$prefix}secondary-bg);
+      padding: 2px 16px;
+  }
+}
+
+// Auth cover
+
+.auth-bg-cover{
+  background: $auth-bg-cover;
+
+  > .bg-overlay{
+      // background-image: url("../../images/cover-pattern.png");
+      background-position: center;
+      background-size: cover;
+      opacity: 1;
+      background-color: transparent;
+  }
+
+  .footer{
+      color: rgba($white, .5);
+  }
+}
+
+.text-login{
+  color: $black;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.linked-text{
+  font-size: 14px;
+  font-weight: 400;
+  color: $action-red;
+  line-height: 16.94px;
+ text-align: right;
+
+}
+
+.login-btn{
+  padding: 12px 60px 12px 60px;
+  background-color: $action-red;
+  border-radius: 12px;
+  border: $action-red solid;
+  font-size: 16px;
+}
+.login-btn:hover{
+  padding: 12px 60px 12px 60px;
+  background-color: transparent;
+  border-radius: 12px;
+  border: $action-red 2px solid;
+  font-size: 16px;
+  color: $action-red;
+
+}
+.login-btn:active{
+  padding: 12px 60px 12px 60px!important;
+  background-color: transparent!important;
+  border-radius: 12px!important;
+  border: $action-red 2px solid!important;
+  font-size: 16px!important;
+  color: $action-red!important;
+}
+
+///register button
+.register-btn{
+  padding: 12px 60px 12px 60px;
+  background-color: $action-red;
+  border-radius: 12px;
+  border: $action-red solid;
+  font-size: 16px;
+  color: $white;
+}
+.register-btn:hover{
+  padding: 12px 60px 12px 60px;
+  background-color: transparent;
+  border-radius: 12px;
+  border: $action-red 2px solid;
+  font-size: 16px;
+  color: $action-red;
+
+}
+
+.register-btn:active{
+  padding: 12px 60px 12px 60px;
+  color: $action-red;
+  background-color: transparent;
+  border-radius: 12px;
+  border: $action-red 2px solid;
+  font-size: 16px;
+}
+
+//reset password
+.reset-btn{
+  padding: 12px 60px 12px 60px;
+  background-color: $action-red;
+  border-radius: 12px;
+  border: $action-red solid;
+  font-size: 16px;
+  color: $white;
+}
+.reset-btn:hover{
+  padding: 12px 60px 12px 60px;
+  background-color: transparent;
+  border-radius: 12px;
+  border: $action-red 2px solid;
+  font-size: 16px;
+  color: $action-red;
+
+}
+
+.reset-btn:active{
+  padding: 12px 60px 12px 60px;
+  color: $action-red;
+  background-color: transparent;
+  border-radius: 12px;
+  border: $action-red 2px solid;
+  font-size: 16px;
+}
+
+
+.heading{
+  color: $action-red;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+//passowrd validations
+#password-contain {
+  display: none;
+
+  p {
+      padding-left: 13px;
+
+      &.valid {
+          color: $success;
+
+          &::before {
+              position: relative;
+              left: -8px;
+              content: "✔";
+          }
+      }
+
+      &.invalid {
+          color: $danger;
+
+          &::before {
+              position: relative;
+              left: -8px;
+              content: "✖";
+          }
+      }
+  }
+}

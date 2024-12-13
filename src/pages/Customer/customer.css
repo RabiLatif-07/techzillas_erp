@@ -1,0 +1,41 @@
+/* Buttons */
+.vendor-btn{
+    background-color: #F23514;
+    border-radius: 16px;
+    border: #F23514 1px solid;
+    padding: 08px 18px;
+    color: white;
+    font-size: 14px;
+    line-height: 16.94px;
+}
+
+.col-lg-6{
+    width:49%!important;
+}
+.order-details{
+font-size: 14px;
+font-weight: 500;
+line-height: 19.36px;
+color: #45464E;
+}
+.suspended-btn{
+    background-color: #F23514;
+    border-radius: 10px;
+    border: #F23514 1px solid;
+    padding: 08px 15px;
+    color: white;
+    font-size: 12px;
+    line-height: 16.94px;
+}
+.edit-btn{
+    background-color: #1C1D22;
+    border-radius: 11px;
+    border: #1C1D22 1px solid;
+    padding: 05px 15px;
+    color: white;
+    font-size: 12px;
+    line-height: 16.94px;
+}
+.down-icon{
+    border-left:1px solid #37393F;
+}

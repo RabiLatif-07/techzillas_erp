@@ -1,0 +1,354 @@
+/* colors */
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --theme-color: #F23514;
+}
+/* Breadcrumb */
+.breadcrumb-icon{
+  width: 16px!important;
+  height: 18px!important;
+  color: var(--theme-color)!important;
+}
+
+/* .progress-value{
+  margin-top: -5px;
+} */
+
+.logout {
+  margin-top: 80px;
+}
+
+.logout a{
+  color: #F23514!important;
+}
+.logout a:hover{
+  background-color: white!important;
+}
+.logout a:active{
+  background-color: white!important;
+}
+
+
+.col-md-3{
+  width: 30%!important;
+}
+
+.col-md-6{
+  width: 40%!important;
+}
+
+/* Dashboard Css */
+.card-headings{
+  display: flex;
+  margin-top: 32px;
+  align-items: center;
+}
+.sales-card .volume{
+  padding-left: 125px;
+}
+.vendors{
+  padding-left: 50px;
+}
+.card-headings{
+  display: flex;
+  margin-top: 32px;
+  justify-content: space-between;
+
+}
+.card-body{
+  padding: 12px 15px 12px 15px!important;
+}
+.week {
+  display: flex;
+  align-items: center;
+}
+.week i {
+  margin-left: 5px;
+  font-size: 15px;
+}
+.card-header{
+  border-start-start-radius: 12px!important;
+  border-start-end-radius: 12px!important;
+
+}
+
+.sales-card{
+  display: flex;
+  margin-top: 32px;
+  justify-content: space-between;
+}
+.marketing-cards{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.marketing-widgets{
+  display: block;
+}
+.returns-heading{
+  padding-right: 150px!important;
+}
+.order-id{
+  color: var(--secondary-color)!important;
+}
+
+/* Buttons */
+
+.view-all{
+  color: #4096FF!important;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.status-btn-pending{
+  padding: 2px 15px 2px 15px;
+  background-color: #F57E771F;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 14.52px;
+  font-weight: 400;
+  color: #F23514;
+}
+.status-btn-completed{
+  padding: 2px 15px 2px 15px;
+  background-color: #32936F1F;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 14.52px;
+  font-weight: 400;
+  color:#519C66;
+}
+
+.status-btn-success{
+  border: 1px solid #ADC6FF;
+  border-radius: 4px;
+  padding: 2px 8px 2px 8px;  
+  background-color: #F0F5FF;
+  color: #2F54EB;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.status-btn-loading{
+  border: 1px solid #FFD591;
+  border-radius: 4px;
+  padding: 2px 8px 2px 8px;  
+  background-color: #FFF7E6;
+  color: #FA8C16;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.status-btn-unloading{
+  border: 1px solid #87E8DE;
+  border-radius: 4px;
+  padding: 2px 8px 2px 8px;  
+  background-color: #E6FFFB;
+  color: #13C2C2;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.status-btn-active{
+  border: 1px solid #B7EB8F;
+  border-radius: 4px;
+  padding: 2px 8px 2px 8px;  
+  background-color: #F6FFED;
+  color: #52C41A;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.status-btn-cancelled{
+  border: 1px solid #FFA39E;
+  border-radius: 4px;
+  padding: 2px 8px 2px 8px;  
+  background-color: #FFF1F0;
+  color: #F5222D;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.folder-icon i{
+  background-color:#FFFFFF29;
+  padding: 10px;
+  font-size: 22px;
+  color: var(--primary-color);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.folder-card{
+  background-color: #37393F;
+}
+
+.product-heading{
+  color: var(--primary-color);
+}
+.product-value{
+  color: var(--primary-color);
+}
+.values-folder{
+  display: flex;
+  justify-content: space-between;
+}
+.values-folder h4{
+  color: var(--primary-color);
+}
+.shopping-card{
+  display: flex;
+  justify-content: space-between;
+}
+.shopping-headings{
+  display: flex;
+  justify-content: space-between;
+}
+.values-folder span{
+  color: var(--primary-color);
+  font-size: 10px;
+  text-align: right;
+}
+.icon-1{
+  background-color: #5570F11F;
+  padding: 06px;
+  font-size: 08px;
+  color: #5570F1;
+  border-radius: 8px;
+}
+.icon-2 i{
+  background-color: #FFCC9129;
+  padding: 10px;
+  font-size: 22px;
+  color: #130F26;
+  border-radius: 8px;
+}
+.icon-3 i{
+  background-color: #FFCC9129;
+  padding: 10px;
+  font-size: 22px;
+  color: #130F26;
+  border-radius: 8px;
+}
+.icon-header{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-self: center!important  ;
+}
+
+.card-values{
+  column-gap: 15px;
+  display: flex;
+}
+.card-values text{
+  font-size: 10px;
+  color: #519C66;
+  text-align: right;
+}
+.card-subtitle-value2{
+  text-align: right;
+}
+.text{
+  font-size: 10px;
+  text-align: right;
+  color: #519C66;
+}
+.text-value{
+  font-size: 10px;
+  text-align: right;
+  color:#DBDEEE;
+}
+.text-cart {
+  color: var(--secondary-color)!important;
+}
+
+/* Responsive screens*/
+/* Mobile  */
+@media only screen and (max-device-width: 480px){
+  .progress-value{
+    margin-top: -5px;
+  }
+  
+  .dashboard-cards{
+    display: block;
+    justify-items : center!important;
+    margin-left:0px!important;
+  }
+  
+  .col-md-3{
+    width: 100%!important;
+    padding-right: 0px!important;
+
+  }
+  .col-md-6 {
+    width: 100%!important;
+    margin-left: 0px!important;
+    padding-right: 0px!important;
+  }
+  .recent-order-tabs{
+    padding-right: none!important;
+  }
+
+}
+
+
+/* Tab Screen */
+@media only screen  and (min-width:480px) and (max-width:768px){
+  
+  .custom-order{
+    width: 48%!important;
+
+  }
+ 
+  .recent-order-res{
+    margin-bottom: 20px;
+  }
+ 
+  .dashboard-cards{
+    display: block;
+    justify-items : center!important;
+    margin-left: 0px!important;
+ 
+  }
+  .col-md-3{
+    width: 100%!important;
+    padding-right: 0px!important;
+  }
+  .col-md-6{
+    width: 100%!important;
+  }
+  /* header search */
+  .app-search{
+    display: none!important;
+  }
+  .returns-heading:active{
+   color: var(--secondary-color);
+  }
+  /* Dashboard Table */
+  .table-td td{
+    text-align: right;
+  }
+
+}
+@media only screen and (min-width:600px) and (max-width:1024px){
+  
+   .recent-order-tabs{
+    width: 100%!important;
+
+   }
+}
+
+  @media only screen and (min-width:1024px) and (max-width:1440px){
+    .custom-order{
+      width: 100%!important;
+  
+    }
+    .marketing-cards{
+      display: flex;
+      margin-top: 52px;
+      justify-content: space-between;
+    }
+    
+  }
+

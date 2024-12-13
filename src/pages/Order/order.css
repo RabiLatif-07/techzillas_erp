@@ -1,0 +1,139 @@
+/* .custom-cards {
+  max-height: 69vh !important;
+  min-height:69vh !important;
+} */
+.request-order {
+  padding: 0px 15px;
+}
+.timeline-2 .timeline-date {
+  margin: 10px 0 0 57px !important;
+}
+.timeline-2 .data {
+  margin: 10px 0 0 57px !important;
+}
+.timeline-2 {
+  padding: 20px 0px !important;
+}
+
+.icons {
+  padding: 15px 0px 15px 0px;
+}
+.file-icon {
+  padding-right: 12px;
+}
+.timeline-2 .timeline-date::after {
+  top: 16px !important;
+  left: 36px !important;
+}
+.without-circle {
+  margin: 10px 0 0 57px !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+.without-circle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 14px;
+  left: 37px;
+  align-items: left;
+  background: white;
+  border: 3px solid rgba(0, 62, 179, 1);
+  border-radius: 50px;
+  z-index: 1;
+}
+.timeline-2 .timeline-date::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 26px;
+  left: 45px;
+  align-items: left;
+  background: rgba(0, 62, 179, 1);
+  border: 2px solid var(--vz-secondary-bg);
+  border-radius: 50px;
+  z-index: 1;
+}
+.timeline-2::after {
+  top: 49px !important;
+  left: 31px !important;
+  height: 32% !important;
+  color: #D9D9D9!important;
+  border-width: 1px !important;
+  border-style: dashed!important;
+  background-color: transparent!important;
+}
+.title {
+  padding: 20px 0px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000a6;
+}
+
+.location-info {
+  flex-grow: 1;
+}
+
+.pickup,
+.destination {
+  margin-top: 10px;
+}
+
+.label {
+  color: #00000073;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.address {
+  color: #000000e0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.map-thumbnail {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.company-info {
+  color: #000000e0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+}
+
+.company-info img {
+  width: 50px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.view-details {
+  font-size: 12px;
+  color: #1677ff;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.view-details:hover {
+  text-decoration: underline;
+}
+
+.sticky-column {
+  position: sticky;
+  top: 0; /* Adjust as needed */
+  z-index: 1; /* Ensure it stays on top, if necessary */
+}
